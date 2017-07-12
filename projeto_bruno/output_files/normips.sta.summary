@@ -1,0 +1,113 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'debouncer:debouncer|PB_state'
+Slack : -29.626
+TNS   : -13206.221
+
+Type  : Slow 1200mV 85C Model Setup 'programCounter:programCounter|endereco_atual[0]'
+Slack : -8.678
+TNS   : -77.492
+
+Type  : Slow 1200mV 85C Model Setup 'CLOCK1'
+Slack : -3.322
+TNS   : -42.699
+
+Type  : Slow 1200mV 85C Model Hold 'programCounter:programCounter|endereco_atual[0]'
+Slack : -2.862
+TNS   : -4.124
+
+Type  : Slow 1200mV 85C Model Hold 'debouncer:debouncer|PB_state'
+Slack : 0.343
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'CLOCK1'
+Slack : 0.587
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CLOCK1'
+Slack : -3.000
+TNS   : -27.415
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'programCounter:programCounter|endereco_atual[0]'
+Slack : -2.918
+TNS   : -285.052
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'debouncer:debouncer|PB_state'
+Slack : -1.285
+TNS   : -1288.529
+
+Type  : Slow 1200mV 0C Model Setup 'debouncer:debouncer|PB_state'
+Slack : -26.861
+TNS   : -11874.430
+
+Type  : Slow 1200mV 0C Model Setup 'programCounter:programCounter|endereco_atual[0]'
+Slack : -8.075
+TNS   : -74.286
+
+Type  : Slow 1200mV 0C Model Setup 'CLOCK1'
+Slack : -3.029
+TNS   : -38.267
+
+Type  : Slow 1200mV 0C Model Hold 'programCounter:programCounter|endereco_atual[0]'
+Slack : -2.533
+TNS   : -3.374
+
+Type  : Slow 1200mV 0C Model Hold 'debouncer:debouncer|PB_state'
+Slack : 0.454
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'CLOCK1'
+Slack : 0.541
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CLOCK1'
+Slack : -3.000
+TNS   : -27.415
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'programCounter:programCounter|endereco_atual[0]'
+Slack : -2.521
+TNS   : -249.633
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'debouncer:debouncer|PB_state'
+Slack : -1.285
+TNS   : -1286.492
+
+Type  : Fast 1200mV 0C Model Setup 'debouncer:debouncer|PB_state'
+Slack : -14.157
+TNS   : -6571.468
+
+Type  : Fast 1200mV 0C Model Setup 'programCounter:programCounter|endereco_atual[0]'
+Slack : -3.970
+TNS   : -36.498
+
+Type  : Fast 1200mV 0C Model Setup 'CLOCK1'
+Slack : -1.166
+TNS   : -13.246
+
+Type  : Fast 1200mV 0C Model Hold 'programCounter:programCounter|endereco_atual[0]'
+Slack : -1.762
+TNS   : -3.675
+
+Type  : Fast 1200mV 0C Model Hold 'debouncer:debouncer|PB_state'
+Slack : -0.047
+TNS   : -0.071
+
+Type  : Fast 1200mV 0C Model Hold 'CLOCK1'
+Slack : 0.258
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CLOCK1'
+Slack : -3.000
+TNS   : -23.189
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'programCounter:programCounter|endereco_atual[0]'
+Slack : -1.448
+TNS   : -94.203
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'debouncer:debouncer|PB_state'
+Slack : -1.000
+TNS   : -996.425
+
+------------------------------------------------------------

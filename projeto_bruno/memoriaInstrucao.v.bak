@@ -1,0 +1,10 @@
+module memoriaInstrucao(endereco_leitura, instrucao, clock);
+	
+	// input
+	input [31:0] endereco_leitura;
+	
+	// output
+	output [31:0] instrucao;
+	
+	
+	

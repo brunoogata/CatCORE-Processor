@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at Temporizador.v(6): always construct contains both blocking and non-blocking assignments File: /home-local/aluno/aoc/projeto_bruno2307/projeto_bruno/Temporizador.v Line: 6

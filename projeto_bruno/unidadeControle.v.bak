@@ -1,0 +1,47 @@
+module unidadeControle(opcode, clock);
+	
+	input [5:0] opcode;
+	input clock;
+	
+	output [1:0] controle_MUX4;
+	output [2:0] controle_ALU;
+	output controle_BANCOREG, controle_MEMDADOS, controle_MUX1, controle_MUX2, controle_MUX3;
+	
+	always @ (posedge clock) begin 
+	
+		case(opcode [5:0]) 
+			
+			6'b111111: begin // jump
+				controle_MUX4 = 2'b11;
+			end
+			6'b100000: begin // add
+				controle_BANCOREG = 1'b1;
+				controle_ALU = 3'b000;
+				controle_MEMDADOS = 1'b0;
+				controle_MUX1 = 1'b1;
+				controle_MUX2 = 1'b1;
+				controle_MUX3 = 1'b0;
+				controle_MUX4 = 2'b00;
+			end
+			6'b011111: begin // lw
+				controle_BANCOREG = 1'b1;
+				controle_ALU = 3'b000;
+				controle_MEMDADOS = 1'b1;
+				controle_MUX1 = 1'b0;
+				controle_MUX2 = 1'b1;
+				controle_MUX3 = 1'b1;
+				controle_MUX4 = 2'b00;
+			end
+			6'b010110: begin // beq
+				controle_BANCOREG = 1'b0;
+				controle_ALU = 3'b001;
+				//controle_MEMDADOS = 1'b0;
+				//controle_MUX1 = 1'b1;
+				controle_MUX2 = 1'b0;
+				//controle_MUX3 = 1'b0;
+				controle_MUX4 = 2'b01;
+			end
+		endcase 
+	end
+	
+endmodule 

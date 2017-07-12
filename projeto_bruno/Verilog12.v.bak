@@ -1,0 +1,90 @@
+module normips (CLOCK, resultado_teste,prox_instrucao_test,instrucao_test,dado1_test,dado2_test,controle_alu_test,controle_bancoreg_test,controle_memdados_test,controle_mux1_test,controle_mux2_test,controle_mux3_test,controle_mux4_test,saida_memdados_test,extendido_test,instrucao1_test,instrucao2_test,saida_mux5_test, saida_mux3_test, saida_mux2_test, saida_mux1_test);
+	input CLOCK;
+	
+	wire [31:0] PROX_ENDERECO;
+	wire [31:0] PROX_INSTRUCAO;
+	wire [31:0] INSTRUCAO;
+	wire [4:0] MUX1_OPT;
+	wire [31:0] MUX2_OPT;
+	wire [31:0] DADO1;
+	wire [31:0] DADO2;
+	wire [2:0] CONTROLE_ALU;
+	wire CONTROLE_BANCOREG, SINAL_ZERO, SINAL_NEG, CONTROLE_MEMDADOS, CONTROLE_MUX1, CONTROLE_MUX2, CONTROLE_MUX3;
+	wire [31:0] RESULTADO_ALU;
+	wire [31:0] SAIDA_MEMDADOS;
+	wire [31:0] EXTENDIDO;
+	wire [31:0] EXTENDIDO_DESLOCADO;
+	wire [31:0] ENTRADA_JUMP;
+	wire [1:0] CONTROLE_MUX4; 
+	wire [31:0] SAIDA_MUX5;
+	
+	output [31:0] resultado_teste;
+	output [31:0] prox_instrucao_test;
+	output [31:0] instrucao_test;
+	output [31:0] dado1_test;
+	output [31:0] dado2_test;
+	output [2:0] controle_alu_test;
+	output controle_bancoreg_test, controle_memdados_test, controle_mux1_test, controle_mux2_test, controle_mux3_test;
+	output [1:0] controle_mux4_test;
+	output [31:0] saida_memdados_test;
+	output [31:0] extendido_test;
+	output [4:0] instrucao1_test;
+	output [4:0] instrucao2_test;
+	output [31:0] saida_mux5_test;
+	output [31:0] saida_mux3_test;
+	output [4:0] saida_mux1_test;
+	output [31:0] saida_mux2_test;
+	
+	programCounter programCounter(PROX_ENDERECO, PROX_INSTRUCAO, CLOCK);
+	
+	memoriaInstrucao memoriaInstrucao(PROX_INSTRUCAO, INSTRUCAO, CLOCK);
+	
+	bancoRegistradores bancoRegistradores(INSTRUCAO[25:21], INSTRUCAO[20:16], MUX1_OPT, MUX3_OPT, DADO1, DADO2, CONTROLE_BANCOREG, CLOCK);
+	
+	ALU ALU(DADO1, MUX2_OPT, RESULTADO_ALU, CONTROLE_ALU, SINAL_ZERO, SINAL_NEG, CLOCK);
+	
+	memoriaDados memoriaDados(EXTENDIDO, DADO2, SAIDA_MEMDADOS, CONTROLE_MEMDADOS, CLOCK);
+	
+	MUX_1 MUX_1(INSTRUCAO[20:16], INSTRUCAO[15:11], MUX1_OPT, CONTROLE_MUX1);
+	
+	MUX_2 MUX_2(DADO2, EXTENDIDO, MUX2_OPT, CONTROLE_MUX2);
+	
+	MUX_3 MUX_3(SAIDA_MEMDADOS, RESULTADO_ALU, MUX3_OPT, CONTROLE_MUX3);
+	
+	MUX_4 MUX_4(PROX_INSTRUCAO, EXTENDIDO_DESLOCADO, ENTRADA_JUMP, PROX_ENDERECO, CONTROLE_MUX4, SINAL_ZERO);
+	
+	extensor16_32 extensor16_32(INSTRUCAO[15:0], EXTENDIDO);
+	
+	extensor26_28 extensor26_28(INSTRUCAO[26:0], ENTRADA_JUMP);
+	
+	deslocamento_2 deslocamento_2(EXTENDIDO, EXTENDIDO_DESLOCADO);
+	
+	unidadeControle unidadeControle(INSTRUCAO[31:26], CONTROLE_BANCOREG, CONTROLE_MEMDADOS, CONTROLE_MUX1, CONTROLE_MUX2, CONTROLE_MUX3, CONTROLE_MUX4, CONTROLE_MUX5, CONTROLE_ALU,CLOCK);
+	
+	/*RESULTADOS*/
+	assign resultado_teste = RESULTADO_ALU;
+	assign extendido_test = EXTENDIDO;
+	/*CONTROLES*/
+	assign controle_bancoreg_test = CONTROLE_BANCOREG;
+	assign controle_memdados_test = CONTROLE_MEMDADOS;
+	assign controle_mux1_test = CONTROLE_MUX1;
+	assign controle_mux2_test = CONTROLE_MUX2;
+	assign controle_mux3_test = CONTROLE_MUX3;
+	assign controle_mux4_test = CONTROLE_MUX4;
+	assign controle_alu_test = CONTROLE_ALU;
+	assign saida_mux5_test = SAIDA_MUX5;
+	assign saida_mux3_test = MUX3_OPT;
+	assign saida_mux1_test = MUX1_OPT;
+	assign saida_mux2_test = MUX2_OPT;
+	
+	/*TRANSPORTE DE DADOS*/
+	assign dado1_test = DADO1;
+	assign dado2_test = DADO2;
+	assign saida_memdados_test = SAIDA_MEMDADOS;
+	/*INSTRUCAO*/
+	assign instrucao_test = INSTRUCAO;
+	assign prox_instrucao_test = PROX_INSTRUCAO;
+	assign instrucao1_test = INSTRUCAO[25:21];
+	assign instrucao2_test = INSTRUCAO[20:16];
+
+endmodule 

@@ -1,0 +1,14 @@
+module somador2 (proximo_endereco, imediato_extendido, saida, clock);
+
+	// input 
+	input [31:0] proximo_endereco, imediato_extendido;
+	input clock;
+	
+	// output
+	output [31:0] saida; 
+	
+	always @ (posedge clock) begin
+		saida = proximo_endereco + imediato_extendido;
+	end
+	
+endmodule 

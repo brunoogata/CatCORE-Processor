@@ -1,0 +1,313 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "UNIDADE[0]",
+					"strict" : false
+				},
+				{
+					"name" : "UNIDADE[1]",
+					"strict" : false
+				},
+				{
+					"name" : "UNIDADE[2]",
+					"strict" : false
+				},
+				{
+					"name" : "UNIDADE[3]",
+					"strict" : false
+				},
+				{
+					"name" : "UNIDADE[4]",
+					"strict" : false
+				},
+				{
+					"name" : "UNIDADE[5]",
+					"strict" : false
+				},
+				{
+					"name" : "UNIDADE[6]",
+					"strict" : false
+				},
+				{
+					"name" : "DEZENA[0]",
+					"strict" : false
+				},
+				{
+					"name" : "DEZENA[1]",
+					"strict" : false
+				},
+				{
+					"name" : "DEZENA[2]",
+					"strict" : false
+				},
+				{
+					"name" : "DEZENA[3]",
+					"strict" : false
+				},
+				{
+					"name" : "DEZENA[4]",
+					"strict" : false
+				},
+				{
+					"name" : "DEZENA[5]",
+					"strict" : false
+				},
+				{
+					"name" : "DEZENA[6]",
+					"strict" : false
+				},
+				{
+					"name" : "CENTENA[0]",
+					"strict" : false
+				},
+				{
+					"name" : "CENTENA[1]",
+					"strict" : false
+				},
+				{
+					"name" : "CENTENA[2]",
+					"strict" : false
+				},
+				{
+					"name" : "CENTENA[3]",
+					"strict" : false
+				},
+				{
+					"name" : "CENTENA[4]",
+					"strict" : false
+				},
+				{
+					"name" : "CENTENA[5]",
+					"strict" : false
+				},
+				{
+					"name" : "CENTENA[6]",
+					"strict" : false
+				},
+				{
+					"name" : "MILHAR[0]",
+					"strict" : false
+				},
+				{
+					"name" : "MILHAR[1]",
+					"strict" : false
+				},
+				{
+					"name" : "MILHAR[2]",
+					"strict" : false
+				},
+				{
+					"name" : "MILHAR[3]",
+					"strict" : false
+				},
+				{
+					"name" : "MILHAR[4]",
+					"strict" : false
+				},
+				{
+					"name" : "MILHAR[5]",
+					"strict" : false
+				},
+				{
+					"name" : "MILHAR[6]",
+					"strict" : false
+				},
+				{
+					"name" : "D_MILHAR[0]",
+					"strict" : false
+				},
+				{
+					"name" : "D_MILHAR[1]",
+					"strict" : false
+				},
+				{
+					"name" : "D_MILHAR[2]",
+					"strict" : false
+				},
+				{
+					"name" : "D_MILHAR[3]",
+					"strict" : false
+				},
+				{
+					"name" : "D_MILHAR[4]",
+					"strict" : false
+				},
+				{
+					"name" : "D_MILHAR[5]",
+					"strict" : false
+				},
+				{
+					"name" : "D_MILHAR[6]",
+					"strict" : false
+				},
+				{
+					"name" : "C_MILHAR[0]",
+					"strict" : false
+				},
+				{
+					"name" : "C_MILHAR[1]",
+					"strict" : false
+				},
+				{
+					"name" : "C_MILHAR[2]",
+					"strict" : false
+				},
+				{
+					"name" : "C_MILHAR[3]",
+					"strict" : false
+				},
+				{
+					"name" : "C_MILHAR[4]",
+					"strict" : false
+				},
+				{
+					"name" : "C_MILHAR[5]",
+					"strict" : false
+				},
+				{
+					"name" : "C_MILHAR[6]",
+					"strict" : false
+				},
+				{
+					"name" : "MILHAO[0]",
+					"strict" : false
+				},
+				{
+					"name" : "MILHAO[1]",
+					"strict" : false
+				},
+				{
+					"name" : "MILHAO[2]",
+					"strict" : false
+				},
+				{
+					"name" : "MILHAO[3]",
+					"strict" : false
+				},
+				{
+					"name" : "MILHAO[4]",
+					"strict" : false
+				},
+				{
+					"name" : "MILHAO[5]",
+					"strict" : false
+				},
+				{
+					"name" : "MILHAO[6]",
+					"strict" : false
+				},
+				{
+					"name" : "D_MILHAO[0]",
+					"strict" : false
+				},
+				{
+					"name" : "D_MILHAO[1]",
+					"strict" : false
+				},
+				{
+					"name" : "D_MILHAO[2]",
+					"strict" : false
+				},
+				{
+					"name" : "D_MILHAO[3]",
+					"strict" : false
+				},
+				{
+					"name" : "D_MILHAO[4]",
+					"strict" : false
+				},
+				{
+					"name" : "D_MILHAO[5]",
+					"strict" : false
+				},
+				{
+					"name" : "D_MILHAO[6]",
+					"strict" : false
+				},
+				{
+					"name" : "CLOCK1",
+					"strict" : false
+				},
+				{
+					"name" : "SWITCH[0]",
+					"strict" : false
+				},
+				{
+					"name" : "SWITCH[15]",
+					"strict" : false
+				},
+				{
+					"name" : "SWITCH[14]",
+					"strict" : false
+				},
+				{
+					"name" : "SWITCH[13]",
+					"strict" : false
+				},
+				{
+					"name" : "SWITCH[12]",
+					"strict" : false
+				},
+				{
+					"name" : "SWITCH[11]",
+					"strict" : false
+				},
+				{
+					"name" : "SWITCH[10]",
+					"strict" : false
+				},
+				{
+					"name" : "SWITCH[9]",
+					"strict" : false
+				},
+				{
+					"name" : "SWITCH[8]",
+					"strict" : false
+				},
+				{
+					"name" : "SWITCH[7]",
+					"strict" : false
+				},
+				{
+					"name" : "SWITCH[6]",
+					"strict" : false
+				},
+				{
+					"name" : "SWITCH[5]",
+					"strict" : false
+				},
+				{
+					"name" : "SWITCH[4]",
+					"strict" : false
+				},
+				{
+					"name" : "SWITCH[3]",
+					"strict" : false
+				},
+				{
+					"name" : "SWITCH[2]",
+					"strict" : false
+				},
+				{
+					"name" : "SWITCH[1]",
+					"strict" : false
+				},
+				{
+					"name" : "RESET",
+					"strict" : false
+				},
+				{
+					"name" : "BOTAO",
+					"strict" : false
+				},
+				{
+					"name" : "BTN",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

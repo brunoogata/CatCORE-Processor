@@ -1,0 +1,23 @@
+module MUX_2 (entrada1, entrada2, saida, controle);
+
+	// input
+	input [31:0] entrada1;
+	input [31:0] entrada2;
+	input controle;
+	
+	// output 
+	output [31:0] saida;
+	
+	always @ (controle) begin
+		
+		if(controle == 0) begin
+			
+			saida = entrada1;
+		end
+		
+		if(controle == 1) begin
+			
+			saida = entrada2;
+		end
+	end
+endmodule 

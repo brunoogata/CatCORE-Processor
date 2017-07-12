@@ -1,0 +1,73 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Bruno Ogata/Desktop/Organização/projeto_bruno/simulation/qsim
+vhard_block
+Z0 !s110 1498507883
+!i10b 1
+!s100 bP4a4LlY25f@A6P7df=KQ1
+IQaCN<zNY2<MgE4oS`CEDI3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 d/home-local/aluno/aoc/projeto_bruno2307/projeto_bruno/simulation/qsim
+Z3 w1498507880
+Z4 8normips.vo
+Z5 Fnormips.vo
+L0 55543
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1498507882.000000
+Z8 !s107 normips.vo|
+Z9 !s90 -work|work|normips.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vnormips
+R0
+!i10b 1
+!s100 C[D_^iV3nN8@B`BBG^W0>3
+IzW0<kX65U<BZl3@o6icBk3
+R1
+R2
+R3
+R4
+R5
+L0 32
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vnormips_vlg_vec_tst
+R0
+!i10b 1
+!s100 Hk>zP]_?ca0[dlH7GBXB;2
+I=:J24KoeYV_N;J8@VP3X?1
+R1
+R2
+w1498507878
+8Waveform85.vwf.vt
+FWaveform85.vwf.vt
+L0 30
+R6
+r1
+!s85 0
+31
+!s108 1498507883.000000
+!s107 Waveform85.vwf.vt|
+!s90 -work|work|Waveform85.vwf.vt|
+!i113 1
+R10
+R11

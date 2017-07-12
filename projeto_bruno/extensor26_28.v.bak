@@ -1,0 +1,10 @@
+module extensor26_28 (entrada, saida);
+
+	// input
+	input [25:0] entrada;
+	
+	// output
+	output [27:0] saida;
+	
+	assign saida = {entrada, 2'b0};
+endmodule 

@@ -1,0 +1,1869 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "SAIDA_MEMDADOS_TEST[0]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MEMDADOS_TEST[1]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MEMDADOS_TEST[2]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MEMDADOS_TEST[3]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MEMDADOS_TEST[4]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MEMDADOS_TEST[5]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MEMDADOS_TEST[6]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MEMDADOS_TEST[7]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MEMDADOS_TEST[8]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MEMDADOS_TEST[9]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MEMDADOS_TEST[10]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MEMDADOS_TEST[11]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MEMDADOS_TEST[12]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MEMDADOS_TEST[13]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MEMDADOS_TEST[14]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MEMDADOS_TEST[15]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MEMDADOS_TEST[16]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MEMDADOS_TEST[17]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MEMDADOS_TEST[18]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MEMDADOS_TEST[19]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MEMDADOS_TEST[20]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MEMDADOS_TEST[21]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MEMDADOS_TEST[22]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MEMDADOS_TEST[23]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MEMDADOS_TEST[24]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MEMDADOS_TEST[25]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MEMDADOS_TEST[26]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MEMDADOS_TEST[27]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MEMDADOS_TEST[28]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MEMDADOS_TEST[29]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MEMDADOS_TEST[30]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MEMDADOS_TEST[31]",
+					"strict" : false
+				},
+				{
+					"name" : "UNIDADE[0]",
+					"strict" : false
+				},
+				{
+					"name" : "UNIDADE[1]",
+					"strict" : false
+				},
+				{
+					"name" : "UNIDADE[2]",
+					"strict" : false
+				},
+				{
+					"name" : "UNIDADE[3]",
+					"strict" : false
+				},
+				{
+					"name" : "UNIDADE[4]",
+					"strict" : false
+				},
+				{
+					"name" : "UNIDADE[5]",
+					"strict" : false
+				},
+				{
+					"name" : "UNIDADE[6]",
+					"strict" : false
+				},
+				{
+					"name" : "DEZENA[0]",
+					"strict" : false
+				},
+				{
+					"name" : "DEZENA[1]",
+					"strict" : false
+				},
+				{
+					"name" : "DEZENA[2]",
+					"strict" : false
+				},
+				{
+					"name" : "DEZENA[3]",
+					"strict" : false
+				},
+				{
+					"name" : "DEZENA[4]",
+					"strict" : false
+				},
+				{
+					"name" : "DEZENA[5]",
+					"strict" : false
+				},
+				{
+					"name" : "DEZENA[6]",
+					"strict" : false
+				},
+				{
+					"name" : "CENTENA[0]",
+					"strict" : false
+				},
+				{
+					"name" : "CENTENA[1]",
+					"strict" : false
+				},
+				{
+					"name" : "CENTENA[2]",
+					"strict" : false
+				},
+				{
+					"name" : "CENTENA[3]",
+					"strict" : false
+				},
+				{
+					"name" : "CENTENA[4]",
+					"strict" : false
+				},
+				{
+					"name" : "CENTENA[5]",
+					"strict" : false
+				},
+				{
+					"name" : "CENTENA[6]",
+					"strict" : false
+				},
+				{
+					"name" : "MILHAR[0]",
+					"strict" : false
+				},
+				{
+					"name" : "MILHAR[1]",
+					"strict" : false
+				},
+				{
+					"name" : "MILHAR[2]",
+					"strict" : false
+				},
+				{
+					"name" : "MILHAR[3]",
+					"strict" : false
+				},
+				{
+					"name" : "MILHAR[4]",
+					"strict" : false
+				},
+				{
+					"name" : "MILHAR[5]",
+					"strict" : false
+				},
+				{
+					"name" : "MILHAR[6]",
+					"strict" : false
+				},
+				{
+					"name" : "D_MILHAR[0]",
+					"strict" : false
+				},
+				{
+					"name" : "D_MILHAR[1]",
+					"strict" : false
+				},
+				{
+					"name" : "D_MILHAR[2]",
+					"strict" : false
+				},
+				{
+					"name" : "D_MILHAR[3]",
+					"strict" : false
+				},
+				{
+					"name" : "D_MILHAR[4]",
+					"strict" : false
+				},
+				{
+					"name" : "D_MILHAR[5]",
+					"strict" : false
+				},
+				{
+					"name" : "D_MILHAR[6]",
+					"strict" : false
+				},
+				{
+					"name" : "C_MILHAR[0]",
+					"strict" : false
+				},
+				{
+					"name" : "C_MILHAR[1]",
+					"strict" : false
+				},
+				{
+					"name" : "C_MILHAR[2]",
+					"strict" : false
+				},
+				{
+					"name" : "C_MILHAR[3]",
+					"strict" : false
+				},
+				{
+					"name" : "C_MILHAR[4]",
+					"strict" : false
+				},
+				{
+					"name" : "C_MILHAR[5]",
+					"strict" : false
+				},
+				{
+					"name" : "C_MILHAR[6]",
+					"strict" : false
+				},
+				{
+					"name" : "MILHAO[0]",
+					"strict" : false
+				},
+				{
+					"name" : "MILHAO[1]",
+					"strict" : false
+				},
+				{
+					"name" : "MILHAO[2]",
+					"strict" : false
+				},
+				{
+					"name" : "MILHAO[3]",
+					"strict" : false
+				},
+				{
+					"name" : "MILHAO[4]",
+					"strict" : false
+				},
+				{
+					"name" : "MILHAO[5]",
+					"strict" : false
+				},
+				{
+					"name" : "MILHAO[6]",
+					"strict" : false
+				},
+				{
+					"name" : "D_MILHAO[0]",
+					"strict" : false
+				},
+				{
+					"name" : "D_MILHAO[1]",
+					"strict" : false
+				},
+				{
+					"name" : "D_MILHAO[2]",
+					"strict" : false
+				},
+				{
+					"name" : "D_MILHAO[3]",
+					"strict" : false
+				},
+				{
+					"name" : "D_MILHAO[4]",
+					"strict" : false
+				},
+				{
+					"name" : "D_MILHAO[5]",
+					"strict" : false
+				},
+				{
+					"name" : "D_MILHAO[6]",
+					"strict" : false
+				},
+				{
+					"name" : "UNIDADE2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "UNIDADE2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "UNIDADE2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "UNIDADE2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "UNIDADE2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "UNIDADE2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "UNIDADE2[6]",
+					"strict" : false
+				},
+				{
+					"name" : "DEZENA2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "DEZENA2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "DEZENA2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "DEZENA2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "DEZENA2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "DEZENA2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "DEZENA2[6]",
+					"strict" : false
+				},
+				{
+					"name" : "CENTENA2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "CENTENA2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "CENTENA2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "CENTENA2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "CENTENA2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "CENTENA2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "CENTENA2[6]",
+					"strict" : false
+				},
+				{
+					"name" : "MILHAR2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "MILHAR2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "MILHAR2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "MILHAR2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "MILHAR2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "MILHAR2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "MILHAR2[6]",
+					"strict" : false
+				},
+				{
+					"name" : "D_MILHAR2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "D_MILHAR2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "D_MILHAR2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "D_MILHAR2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "D_MILHAR2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "D_MILHAR2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "D_MILHAR2[6]",
+					"strict" : false
+				},
+				{
+					"name" : "C_MILHAR2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "C_MILHAR2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "C_MILHAR2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "C_MILHAR2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "C_MILHAR2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "C_MILHAR2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "C_MILHAR2[6]",
+					"strict" : false
+				},
+				{
+					"name" : "MILHAO2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "MILHAO2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "MILHAO2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "MILHAO2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "MILHAO2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "MILHAO2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "MILHAO2[6]",
+					"strict" : false
+				},
+				{
+					"name" : "D_MILHAO2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "D_MILHAO2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "D_MILHAO2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "D_MILHAO2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "D_MILHAO2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "D_MILHAO2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "D_MILHAO2[6]",
+					"strict" : false
+				},
+				{
+					"name" : "INSTRUCAO_TEST[0]",
+					"strict" : false
+				},
+				{
+					"name" : "INSTRUCAO_TEST[1]",
+					"strict" : false
+				},
+				{
+					"name" : "INSTRUCAO_TEST[2]",
+					"strict" : false
+				},
+				{
+					"name" : "INSTRUCAO_TEST[3]",
+					"strict" : false
+				},
+				{
+					"name" : "INSTRUCAO_TEST[4]",
+					"strict" : false
+				},
+				{
+					"name" : "INSTRUCAO_TEST[5]",
+					"strict" : false
+				},
+				{
+					"name" : "INSTRUCAO_TEST[6]",
+					"strict" : false
+				},
+				{
+					"name" : "INSTRUCAO_TEST[7]",
+					"strict" : false
+				},
+				{
+					"name" : "INSTRUCAO_TEST[11]",
+					"strict" : false
+				},
+				{
+					"name" : "INSTRUCAO_TEST[12]",
+					"strict" : false
+				},
+				{
+					"name" : "INSTRUCAO_TEST[13]",
+					"strict" : false
+				},
+				{
+					"name" : "INSTRUCAO_TEST[14]",
+					"strict" : false
+				},
+				{
+					"name" : "INSTRUCAO_TEST[15]",
+					"strict" : false
+				},
+				{
+					"name" : "INSTRUCAO_TEST[16]",
+					"strict" : false
+				},
+				{
+					"name" : "INSTRUCAO_TEST[17]",
+					"strict" : false
+				},
+				{
+					"name" : "INSTRUCAO_TEST[18]",
+					"strict" : false
+				},
+				{
+					"name" : "INSTRUCAO_TEST[19]",
+					"strict" : false
+				},
+				{
+					"name" : "INSTRUCAO_TEST[20]",
+					"strict" : false
+				},
+				{
+					"name" : "INSTRUCAO_TEST[21]",
+					"strict" : false
+				},
+				{
+					"name" : "INSTRUCAO_TEST[22]",
+					"strict" : false
+				},
+				{
+					"name" : "INSTRUCAO_TEST[23]",
+					"strict" : false
+				},
+				{
+					"name" : "INSTRUCAO_TEST[24]",
+					"strict" : false
+				},
+				{
+					"name" : "INSTRUCAO_TEST[25]",
+					"strict" : false
+				},
+				{
+					"name" : "INSTRUCAO_TEST[26]",
+					"strict" : false
+				},
+				{
+					"name" : "INSTRUCAO_TEST[27]",
+					"strict" : false
+				},
+				{
+					"name" : "INSTRUCAO_TEST[28]",
+					"strict" : false
+				},
+				{
+					"name" : "INSTRUCAO_TEST[29]",
+					"strict" : false
+				},
+				{
+					"name" : "INSTRUCAO_TEST[30]",
+					"strict" : false
+				},
+				{
+					"name" : "INSTRUCAO_TEST[31]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX4_TEST[0]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX4_TEST[1]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX4_TEST[2]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX4_TEST[3]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX4_TEST[4]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX4_TEST[5]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX4_TEST[6]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX4_TEST[7]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX4_TEST[8]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX4_TEST[9]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX4_TEST[10]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX4_TEST[11]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX4_TEST[12]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX4_TEST[13]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX4_TEST[14]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX4_TEST[15]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX4_TEST[16]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX4_TEST[17]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX4_TEST[18]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX4_TEST[19]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX4_TEST[20]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX4_TEST[21]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX4_TEST[22]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX4_TEST[23]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX4_TEST[24]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX4_TEST[25]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX4_TEST[26]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX4_TEST[27]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX4_TEST[28]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX4_TEST[29]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX4_TEST[30]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX4_TEST[31]",
+					"strict" : false
+				},
+				{
+					"name" : "RESULTADO_ALU_TEST[0]",
+					"strict" : false
+				},
+				{
+					"name" : "RESULTADO_ALU_TEST[1]",
+					"strict" : false
+				},
+				{
+					"name" : "RESULTADO_ALU_TEST[2]",
+					"strict" : false
+				},
+				{
+					"name" : "RESULTADO_ALU_TEST[3]",
+					"strict" : false
+				},
+				{
+					"name" : "RESULTADO_ALU_TEST[4]",
+					"strict" : false
+				},
+				{
+					"name" : "RESULTADO_ALU_TEST[5]",
+					"strict" : false
+				},
+				{
+					"name" : "RESULTADO_ALU_TEST[6]",
+					"strict" : false
+				},
+				{
+					"name" : "RESULTADO_ALU_TEST[7]",
+					"strict" : false
+				},
+				{
+					"name" : "RESULTADO_ALU_TEST[8]",
+					"strict" : false
+				},
+				{
+					"name" : "RESULTADO_ALU_TEST[9]",
+					"strict" : false
+				},
+				{
+					"name" : "RESULTADO_ALU_TEST[10]",
+					"strict" : false
+				},
+				{
+					"name" : "RESULTADO_ALU_TEST[11]",
+					"strict" : false
+				},
+				{
+					"name" : "RESULTADO_ALU_TEST[12]",
+					"strict" : false
+				},
+				{
+					"name" : "RESULTADO_ALU_TEST[13]",
+					"strict" : false
+				},
+				{
+					"name" : "RESULTADO_ALU_TEST[14]",
+					"strict" : false
+				},
+				{
+					"name" : "RESULTADO_ALU_TEST[15]",
+					"strict" : false
+				},
+				{
+					"name" : "RESULTADO_ALU_TEST[16]",
+					"strict" : false
+				},
+				{
+					"name" : "RESULTADO_ALU_TEST[17]",
+					"strict" : false
+				},
+				{
+					"name" : "RESULTADO_ALU_TEST[18]",
+					"strict" : false
+				},
+				{
+					"name" : "RESULTADO_ALU_TEST[19]",
+					"strict" : false
+				},
+				{
+					"name" : "RESULTADO_ALU_TEST[20]",
+					"strict" : false
+				},
+				{
+					"name" : "RESULTADO_ALU_TEST[21]",
+					"strict" : false
+				},
+				{
+					"name" : "RESULTADO_ALU_TEST[22]",
+					"strict" : false
+				},
+				{
+					"name" : "RESULTADO_ALU_TEST[23]",
+					"strict" : false
+				},
+				{
+					"name" : "RESULTADO_ALU_TEST[24]",
+					"strict" : false
+				},
+				{
+					"name" : "RESULTADO_ALU_TEST[25]",
+					"strict" : false
+				},
+				{
+					"name" : "RESULTADO_ALU_TEST[26]",
+					"strict" : false
+				},
+				{
+					"name" : "RESULTADO_ALU_TEST[27]",
+					"strict" : false
+				},
+				{
+					"name" : "RESULTADO_ALU_TEST[28]",
+					"strict" : false
+				},
+				{
+					"name" : "RESULTADO_ALU_TEST[29]",
+					"strict" : false
+				},
+				{
+					"name" : "RESULTADO_ALU_TEST[30]",
+					"strict" : false
+				},
+				{
+					"name" : "RESULTADO_ALU_TEST[31]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX2_TEST[0]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX2_TEST[1]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX2_TEST[2]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX2_TEST[3]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX2_TEST[4]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX2_TEST[5]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX2_TEST[6]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX2_TEST[7]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX2_TEST[8]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX2_TEST[9]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX2_TEST[10]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX2_TEST[11]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX2_TEST[12]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX2_TEST[13]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX2_TEST[14]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX2_TEST[15]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX2_TEST[16]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX2_TEST[17]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX2_TEST[18]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX2_TEST[19]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX2_TEST[20]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX2_TEST[21]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX2_TEST[22]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX2_TEST[23]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX2_TEST[24]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX2_TEST[25]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX2_TEST[26]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX2_TEST[27]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX2_TEST[28]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX2_TEST[29]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX2_TEST[30]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX2_TEST[31]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUXN_TEST[0]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUXN_TEST[1]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUXN_TEST[2]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUXN_TEST[3]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUXN_TEST[4]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUXN_TEST[5]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUXN_TEST[6]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUXN_TEST[7]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUXN_TEST[8]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUXN_TEST[9]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUXN_TEST[10]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUXN_TEST[11]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUXN_TEST[12]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUXN_TEST[13]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUXN_TEST[14]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUXN_TEST[15]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUXN_TEST[16]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUXN_TEST[17]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUXN_TEST[18]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUXN_TEST[19]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUXN_TEST[20]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUXN_TEST[21]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUXN_TEST[22]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUXN_TEST[23]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUXN_TEST[24]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUXN_TEST[25]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUXN_TEST[26]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUXN_TEST[27]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUXN_TEST[28]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUXN_TEST[29]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUXN_TEST[30]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUXN_TEST[31]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX3_TEST[0]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX3_TEST[1]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX3_TEST[2]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX3_TEST[3]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX3_TEST[4]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX3_TEST[5]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX3_TEST[6]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX3_TEST[7]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX3_TEST[8]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX3_TEST[9]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX3_TEST[10]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX3_TEST[11]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX3_TEST[12]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX3_TEST[13]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX3_TEST[14]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX3_TEST[15]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX3_TEST[16]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX3_TEST[17]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX3_TEST[18]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX3_TEST[19]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX3_TEST[20]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX3_TEST[21]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX3_TEST[22]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX3_TEST[23]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX3_TEST[24]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX3_TEST[25]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX3_TEST[26]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX3_TEST[27]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX3_TEST[28]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX3_TEST[29]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX3_TEST[30]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_MUX3_TEST[31]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_D1_TEST[0]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_D1_TEST[1]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_D1_TEST[2]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_D1_TEST[3]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_D1_TEST[4]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_D1_TEST[5]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_D1_TEST[6]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_D1_TEST[7]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_D1_TEST[8]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_D1_TEST[9]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_D1_TEST[10]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_D1_TEST[11]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_D1_TEST[12]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_D1_TEST[13]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_D1_TEST[14]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_D1_TEST[15]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_D1_TEST[16]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_D1_TEST[17]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_D1_TEST[18]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_D1_TEST[19]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_D1_TEST[20]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_D1_TEST[21]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_D1_TEST[22]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_D1_TEST[23]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_D1_TEST[24]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_D1_TEST[25]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_D1_TEST[26]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_D1_TEST[27]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_D1_TEST[28]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_D1_TEST[29]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_D1_TEST[30]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_D1_TEST[31]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_D2_TEST[0]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_D2_TEST[1]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_D2_TEST[2]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_D2_TEST[3]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_D2_TEST[4]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_D2_TEST[5]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_D2_TEST[6]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_D2_TEST[7]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_D2_TEST[8]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_D2_TEST[9]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_D2_TEST[10]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_D2_TEST[11]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_D2_TEST[12]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_D2_TEST[13]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_D2_TEST[14]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_D2_TEST[15]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_D2_TEST[16]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_D2_TEST[17]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_D2_TEST[18]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_D2_TEST[19]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_D2_TEST[20]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_D2_TEST[21]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_D2_TEST[22]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_D2_TEST[23]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_D2_TEST[24]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_D2_TEST[25]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_D2_TEST[26]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_D2_TEST[27]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_D2_TEST[28]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_D2_TEST[29]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_D2_TEST[30]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_D2_TEST[31]",
+					"strict" : false
+				},
+				{
+					"name" : "ENDERECO_INSTRUCAO_TEST[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ENDERECO_INSTRUCAO_TEST[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ENDERECO_INSTRUCAO_TEST[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ENDERECO_INSTRUCAO_TEST[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ENDERECO_INSTRUCAO_TEST[4]",
+					"strict" : false
+				},
+				{
+					"name" : "ENDERECO_INSTRUCAO_TEST[5]",
+					"strict" : false
+				},
+				{
+					"name" : "ENDERECO_INSTRUCAO_TEST[6]",
+					"strict" : false
+				},
+				{
+					"name" : "ENDERECO_INSTRUCAO_TEST[7]",
+					"strict" : false
+				},
+				{
+					"name" : "ENDERECO_INSTRUCAO_TEST[8]",
+					"strict" : false
+				},
+				{
+					"name" : "ENDERECO_INSTRUCAO_TEST[9]",
+					"strict" : false
+				},
+				{
+					"name" : "ENDERECO_INSTRUCAO_TEST[10]",
+					"strict" : false
+				},
+				{
+					"name" : "ENDERECO_INSTRUCAO_TEST[11]",
+					"strict" : false
+				},
+				{
+					"name" : "ENDERECO_INSTRUCAO_TEST[12]",
+					"strict" : false
+				},
+				{
+					"name" : "ENDERECO_INSTRUCAO_TEST[13]",
+					"strict" : false
+				},
+				{
+					"name" : "ENDERECO_INSTRUCAO_TEST[14]",
+					"strict" : false
+				},
+				{
+					"name" : "ENDERECO_INSTRUCAO_TEST[15]",
+					"strict" : false
+				},
+				{
+					"name" : "ENDERECO_INSTRUCAO_TEST[16]",
+					"strict" : false
+				},
+				{
+					"name" : "ENDERECO_INSTRUCAO_TEST[17]",
+					"strict" : false
+				},
+				{
+					"name" : "ENDERECO_INSTRUCAO_TEST[18]",
+					"strict" : false
+				},
+				{
+					"name" : "ENDERECO_INSTRUCAO_TEST[19]",
+					"strict" : false
+				},
+				{
+					"name" : "ENDERECO_INSTRUCAO_TEST[20]",
+					"strict" : false
+				},
+				{
+					"name" : "ENDERECO_INSTRUCAO_TEST[21]",
+					"strict" : false
+				},
+				{
+					"name" : "ENDERECO_INSTRUCAO_TEST[22]",
+					"strict" : false
+				},
+				{
+					"name" : "ENDERECO_INSTRUCAO_TEST[23]",
+					"strict" : false
+				},
+				{
+					"name" : "ENDERECO_INSTRUCAO_TEST[24]",
+					"strict" : false
+				},
+				{
+					"name" : "ENDERECO_INSTRUCAO_TEST[25]",
+					"strict" : false
+				},
+				{
+					"name" : "ENDERECO_INSTRUCAO_TEST[26]",
+					"strict" : false
+				},
+				{
+					"name" : "ENDERECO_INSTRUCAO_TEST[27]",
+					"strict" : false
+				},
+				{
+					"name" : "ENDERECO_INSTRUCAO_TEST[28]",
+					"strict" : false
+				},
+				{
+					"name" : "ENDERECO_INSTRUCAO_TEST[29]",
+					"strict" : false
+				},
+				{
+					"name" : "ENDERECO_INSTRUCAO_TEST[30]",
+					"strict" : false
+				},
+				{
+					"name" : "ENDERECO_INSTRUCAO_TEST[31]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_SWR_TEST[0]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_SWR_TEST[1]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_SWR_TEST[2]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_SWR_TEST[3]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_SWR_TEST[4]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_SWR_TEST[5]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_SWR_TEST[6]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_SWR_TEST[7]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_SWR_TEST[8]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_SWR_TEST[9]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_SWR_TEST[10]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_SWR_TEST[11]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_SWR_TEST[12]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_SWR_TEST[13]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_SWR_TEST[14]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_SWR_TEST[15]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_SWR_TEST[16]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_SWR_TEST[17]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_SWR_TEST[18]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_SWR_TEST[19]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_SWR_TEST[20]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_SWR_TEST[21]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_SWR_TEST[22]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_SWR_TEST[23]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_SWR_TEST[24]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_SWR_TEST[25]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_SWR_TEST[26]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_SWR_TEST[27]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_SWR_TEST[28]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_SWR_TEST[29]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_SWR_TEST[30]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA_SWR_TEST[31]",
+					"strict" : false
+				},
+				{
+					"name" : "CLOCKAUTO",
+					"strict" : false
+				},
+				{
+					"name" : "SWITCH[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ENTER1",
+					"strict" : false
+				},
+				{
+					"name" : "RESET",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

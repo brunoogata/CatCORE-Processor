@@ -1,0 +1,11 @@
+module ALU (dado1, dado2, resultado, controleULA, sinal_ZERO);
+
+	// input
+	input [31:0] dado1, dado2;
+	input [3:0] controle;
+	
+	// output
+	output [31:0] resultado;
+	output sinal_ZERO;
+
+endmodule 

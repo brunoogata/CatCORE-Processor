@@ -1,0 +1,149 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'unidadeControle:unidadeControle|controle_ALU[1]'
+Slack : -140.356
+TNS   : -2237.887
+
+Type  : Slow 1200mV 85C Model Setup 'freq_cut:freq_cut|clk_out'
+Slack : -46.053
+TNS   : -14507.562
+
+Type  : Slow 1200mV 85C Model Setup 'CLOCKAUTO'
+Slack : -14.296
+TNS   : -3190.425
+
+Type  : Slow 1200mV 85C Model Setup 'memoriaInstrucao:memoriaInstrucao|instrucao[26]'
+Slack : -4.783
+TNS   : -18.158
+
+Type  : Slow 1200mV 85C Model Hold 'freq_cut:freq_cut|clk_out'
+Slack : -9.744
+TNS   : -101.927
+
+Type  : Slow 1200mV 85C Model Hold 'memoriaInstrucao:memoriaInstrucao|instrucao[26]'
+Slack : -7.123
+TNS   : -81.145
+
+Type  : Slow 1200mV 85C Model Hold 'unidadeControle:unidadeControle|controle_ALU[1]'
+Slack : -3.979
+TNS   : -87.023
+
+Type  : Slow 1200mV 85C Model Hold 'CLOCKAUTO'
+Slack : -2.831
+TNS   : -4.950
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CLOCKAUTO'
+Slack : -3.000
+TNS   : -690.598
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'freq_cut:freq_cut|clk_out'
+Slack : -2.693
+TNS   : -1510.244
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'memoriaInstrucao:memoriaInstrucao|instrucao[26]'
+Slack : -0.334
+TNS   : -7.115
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'unidadeControle:unidadeControle|controle_ALU[1]'
+Slack : 0.388
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'unidadeControle:unidadeControle|controle_ALU[1]'
+Slack : -126.400
+TNS   : -2017.617
+
+Type  : Slow 1200mV 0C Model Setup 'freq_cut:freq_cut|clk_out'
+Slack : -42.277
+TNS   : -13132.861
+
+Type  : Slow 1200mV 0C Model Setup 'CLOCKAUTO'
+Slack : -13.245
+TNS   : -2883.719
+
+Type  : Slow 1200mV 0C Model Setup 'memoriaInstrucao:memoriaInstrucao|instrucao[26]'
+Slack : -4.326
+TNS   : -16.782
+
+Type  : Slow 1200mV 0C Model Hold 'freq_cut:freq_cut|clk_out'
+Slack : -8.726
+TNS   : -93.064
+
+Type  : Slow 1200mV 0C Model Hold 'memoriaInstrucao:memoriaInstrucao|instrucao[26]'
+Slack : -6.345
+TNS   : -72.257
+
+Type  : Slow 1200mV 0C Model Hold 'unidadeControle:unidadeControle|controle_ALU[1]'
+Slack : -3.678
+TNS   : -81.567
+
+Type  : Slow 1200mV 0C Model Hold 'CLOCKAUTO'
+Slack : -2.577
+TNS   : -4.484
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CLOCKAUTO'
+Slack : -3.000
+TNS   : -690.554
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'freq_cut:freq_cut|clk_out'
+Slack : -2.649
+TNS   : -1510.112
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'memoriaInstrucao:memoriaInstrucao|instrucao[26]'
+Slack : -0.377
+TNS   : -7.226
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'unidadeControle:unidadeControle|controle_ALU[1]'
+Slack : 0.319
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'unidadeControle:unidadeControle|controle_ALU[1]'
+Slack : -69.568
+TNS   : -1105.864
+
+Type  : Fast 1200mV 0C Model Setup 'freq_cut:freq_cut|clk_out'
+Slack : -23.541
+TNS   : -7059.400
+
+Type  : Fast 1200mV 0C Model Setup 'CLOCKAUTO'
+Slack : -7.077
+TNS   : -1426.813
+
+Type  : Fast 1200mV 0C Model Setup 'memoriaInstrucao:memoriaInstrucao|instrucao[26]'
+Slack : -2.184
+TNS   : -6.188
+
+Type  : Fast 1200mV 0C Model Hold 'freq_cut:freq_cut|clk_out'
+Slack : -5.316
+TNS   : -58.812
+
+Type  : Fast 1200mV 0C Model Hold 'memoriaInstrucao:memoriaInstrucao|instrucao[26]'
+Slack : -3.852
+TNS   : -44.438
+
+Type  : Fast 1200mV 0C Model Hold 'unidadeControle:unidadeControle|controle_ALU[1]'
+Slack : -2.035
+TNS   : -45.078
+
+Type  : Fast 1200mV 0C Model Hold 'CLOCKAUTO'
+Slack : -1.541
+TNS   : -2.760
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CLOCKAUTO'
+Slack : -3.000
+TNS   : -570.383
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'freq_cut:freq_cut|clk_out'
+Slack : -1.000
+TNS   : -1172.012
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'memoriaInstrucao:memoriaInstrucao|instrucao[26]'
+Slack : 0.103
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'unidadeControle:unidadeControle|controle_ALU[1]'
+Slack : 0.115
+TNS   : 0.000
+
+------------------------------------------------------------

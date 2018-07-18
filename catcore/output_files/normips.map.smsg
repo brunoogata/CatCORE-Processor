@@ -1,0 +1,3 @@
+Warning (10268): Verilog HDL information at memoriaInstrucao.v(10): always construct contains both blocking and non-blocking assignments File: /home-local/aluno/Downloads/projeto_bruno/memoriaInstrucao.v Line: 10
+Warning (10268): Verilog HDL information at bancoRegistradores.v(16): always construct contains both blocking and non-blocking assignments File: /home-local/aluno/Downloads/projeto_bruno/bancoRegistradores.v Line: 16
+Warning (10268): Verilog HDL information at memoriaDados.v(10): always construct contains both blocking and non-blocking assignments File: /home-local/aluno/Downloads/projeto_bruno/memoriaDados.v Line: 10

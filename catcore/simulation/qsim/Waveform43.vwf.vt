@@ -1,0 +1,197 @@
+// Copyright (C) 2017  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel FPGA IP License Agreement, or other applicable license
+// agreement, including, without limitation, that your use is for
+// the sole purpose of programming logic devices manufactured by
+// Intel and sold by Intel or its authorized distributors.  Please
+// refer to the applicable agreement for further details.
+
+// *****************************************************************************
+// This file contains a Verilog test bench with test vectors .The test vectors  
+// are exported from a vector file in the Quartus Waveform Editor and apply to  
+// the top level entity of the current Quartus project .The user can use this   
+// testbench to simulate his design using a third-party simulation tool .       
+// *****************************************************************************
+// Generated on "07/02/2018 16:11:48"
+                                                                                
+// Verilog Test Bench (with test vectors) for design :                          normips
+// 
+// Simulation tool : 3rd Party
+// 
+
+`timescale 1 ps/ 1 ps
+module normips_vlg_vec_tst();
+// constants                                           
+// general purpose registers
+reg CLOCKAUTO;
+reg ENTER;
+reg [15:0] SWITCH;
+// wires                                               
+wire [6:0] CENTENA;
+wire [6:0] CENTENA2;
+wire [6:0] C_MILHAR;
+wire [6:0] C_MILHAR2;
+wire [6:0] DEZENA;
+wire [6:0] DEZENA2;
+wire [6:0] D_MILHAO;
+wire [6:0] D_MILHAO2;
+wire [6:0] D_MILHAR;
+wire [6:0] D_MILHAR2;
+wire [31:0] ENDERECO_INSTRUCAO_TEST;
+wire [31:0] INSTRUCAO_TEST;
+wire [6:0] MILHAO;
+wire [6:0] MILHAO2;
+wire [6:0] MILHAR;
+wire [6:0] MILHAR2;
+wire [31:0] RESULTADO_ALU_TEST;
+wire [31:0] SAIDA_D1_TEST;
+wire [31:0] SAIDA_D2_TEST;
+wire [31:0] SAIDA_MEMDADOS_TEST;
+wire [31:0] SAIDA_MUX2_TEST;
+wire [31:0] SAIDA_MUX3_TEST;
+wire [31:0] SAIDA_MUX4_TEST;
+wire [31:0] SAIDA_MUXN_TEST;
+wire [31:0] SAIDA_SWR_TEST;
+wire [6:0] UNIDADE;
+wire [6:0] UNIDADE2;
+
+// assign statements (if any)                          
+normips i1 (
+// port map - connection between master ports and signals/registers   
+	.CENTENA(CENTENA),
+	.CENTENA2(CENTENA2),
+	.CLOCKAUTO(CLOCKAUTO),
+	.C_MILHAR(C_MILHAR),
+	.C_MILHAR2(C_MILHAR2),
+	.DEZENA(DEZENA),
+	.DEZENA2(DEZENA2),
+	.D_MILHAO(D_MILHAO),
+	.D_MILHAO2(D_MILHAO2),
+	.D_MILHAR(D_MILHAR),
+	.D_MILHAR2(D_MILHAR2),
+	.ENDERECO_INSTRUCAO_TEST(ENDERECO_INSTRUCAO_TEST),
+	.ENTER(ENTER),
+	.INSTRUCAO_TEST(INSTRUCAO_TEST),
+	.MILHAO(MILHAO),
+	.MILHAO2(MILHAO2),
+	.MILHAR(MILHAR),
+	.MILHAR2(MILHAR2),
+	.RESULTADO_ALU_TEST(RESULTADO_ALU_TEST),
+	.SAIDA_D1_TEST(SAIDA_D1_TEST),
+	.SAIDA_D2_TEST(SAIDA_D2_TEST),
+	.SAIDA_MEMDADOS_TEST(SAIDA_MEMDADOS_TEST),
+	.SAIDA_MUX2_TEST(SAIDA_MUX2_TEST),
+	.SAIDA_MUX3_TEST(SAIDA_MUX3_TEST),
+	.SAIDA_MUX4_TEST(SAIDA_MUX4_TEST),
+	.SAIDA_MUXN_TEST(SAIDA_MUXN_TEST),
+	.SAIDA_SWR_TEST(SAIDA_SWR_TEST),
+	.SWITCH(SWITCH),
+	.UNIDADE(UNIDADE),
+	.UNIDADE2(UNIDADE2)
+);
+initial 
+begin 
+#1000000 $finish;
+end 
+
+// CLOCKAUTO
+always
+begin
+	CLOCKAUTO = 1'b0;
+	CLOCKAUTO = #2500 1'b1;
+	#2500;
+end 
+
+// ENTER
+initial
+begin
+	ENTER = 1'b1;
+end 
+// SWITCH[ 15 ]
+initial
+begin
+	SWITCH[15] = 1'b0;
+end 
+// SWITCH[ 14 ]
+initial
+begin
+	SWITCH[14] = 1'b0;
+end 
+// SWITCH[ 13 ]
+initial
+begin
+	SWITCH[13] = 1'b0;
+end 
+// SWITCH[ 12 ]
+initial
+begin
+	SWITCH[12] = 1'b0;
+end 
+// SWITCH[ 11 ]
+initial
+begin
+	SWITCH[11] = 1'b0;
+end 
+// SWITCH[ 10 ]
+initial
+begin
+	SWITCH[10] = 1'b0;
+end 
+// SWITCH[ 9 ]
+initial
+begin
+	SWITCH[9] = 1'b0;
+end 
+// SWITCH[ 8 ]
+initial
+begin
+	SWITCH[8] = 1'b0;
+end 
+// SWITCH[ 7 ]
+initial
+begin
+	SWITCH[7] = 1'b0;
+end 
+// SWITCH[ 6 ]
+initial
+begin
+	SWITCH[6] = 1'b0;
+end 
+// SWITCH[ 5 ]
+initial
+begin
+	SWITCH[5] = 1'b0;
+end 
+// SWITCH[ 4 ]
+initial
+begin
+	SWITCH[4] = 1'b0;
+end 
+// SWITCH[ 3 ]
+initial
+begin
+	SWITCH[3] = 1'b0;
+end 
+// SWITCH[ 2 ]
+initial
+begin
+	SWITCH[2] = 1'b0;
+end 
+// SWITCH[ 1 ]
+initial
+begin
+	SWITCH[1] = 1'b0;
+end 
+// SWITCH[ 0 ]
+initial
+begin
+	SWITCH[0] = 1'b0;
+end 
+endmodule
+

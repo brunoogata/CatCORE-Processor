@@ -1,0 +1,11 @@
+module somador1(entrada_usuario, entrada_pc, saida);
+	
+	// input
+	input [31:0] entrada_usuario;
+	input [31:0] entrada_pc;
+	
+	// output 
+	output [31:0] saida;
+	
+	
+	

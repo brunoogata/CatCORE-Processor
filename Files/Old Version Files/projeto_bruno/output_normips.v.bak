@@ -1,0 +1,10 @@
+module output_normips (binario, unidade, dezena, centena, milhar, d_milhar, c_milhar, milhao, d_milhao, clock);
+	input clock;
+	input [31:0] binario;
+	
+	output [6:0] unidade, dezena, centena, milhar, d_milhar, c_milhar, milhao, d_milhao;
+	
+	wire [3:0] bin_unidade, bin_dezena, bin_centena, bin_milhar, bin_dmilhar, bin_cmilhar, bin_milhao, bin_dmilhao;
+	
+	binario_bcd binario_bcd();
+endmodule 
